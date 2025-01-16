@@ -1,4 +1,4 @@
-
+![Example Image](https://github.com/ashleyle95/sqlbi/blob/main/cover.png)
 # PROJECT: FINANCIAL GROWTH ASSESSMENT AND AREA SALES MANAGER (ASM) KPI
 
 Project Description
