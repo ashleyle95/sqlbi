@@ -1,13 +1,14 @@
 ![Example Image](https://github.com/ashleyle95/sqlbi/blob/main/cover.jpg)
-# PROJECT: FINANCIAL GROWTH ASSESSMENT AND AREA SALES MANAGER (ASM) KPI
+# PROJECT: FINANCIAL GROWTH ASSESSMENT AND AREA SALES MANAGER (ASM) KPI                                                         
+[Project Description](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
 
-Project Description
+[SQL Script]()
 
 [Measures in PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
 
 [Link report in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
 
-SQL Script
+
 ## Table of contents
 - [Context](#context)
 - [Project Overview](#project-overview)
