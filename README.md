@@ -3,6 +3,8 @@
 [Project Description](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
 
 [SQL Script]()
+[1. DDL](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
+[2. Procedure](https://github.com/ashleyle95/sqlbi/blob/main/Table%20vs%20DDL%20.sql)
 
 [Measures in PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
 
