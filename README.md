@@ -10,7 +10,6 @@
 
 [Link report in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
 
-
 ## Table of contents
 - [Context](#context)
 - [Project Overview](#project-overview)
