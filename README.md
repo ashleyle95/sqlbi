@@ -6,14 +6,17 @@
 [1. DDL](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
 [2. Procedure](https://github.com/ashleyle95/sqlbi/blob/main/Table%20vs%20DDL%20.sql)
 
-[Measures in PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
+[Measures - PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
 
-[Link report in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
+[Link report - Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
 
 ## Table of contents
 [1. Project Overview](#1-project-overview)
 
 [2. Data Process](#2-data-process) 
+
+[3. Reporting/Visualization](#3-reporting-visualization)
+
 ## 1. Project Overview
 
 ### Context
@@ -62,8 +65,8 @@ EDA is involved in evaluating financial performance, regional performance, and A
 ![flowchart (2)](https://github.com/user-attachments/assets/7725962a-8e89-4c97-872e-73b60dc70b41)
 
 ### Data Transformation
-1. Project Description and key aspects of Business Logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
-2. Use Dbeaver to import data to the database as below
+- Project Description and key aspects of Business Logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
+- Use Dbeaver to import data to the database as below
    
    File `fact_txn_month_raw_data`
    
@@ -79,26 +82,54 @@ EDA is involved in evaluating financial performance, regional performance, and A
 
 ![image](https://github.com/user-attachments/assets/da8026a5-2b37-4c38-b9d8-195ba7385caf)
 
-3. Create dimension tables by using PostgreSQL Data Definition Language (DDL) [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
+- Create dimension tables by using PostgreSQL Data Definition Language (DDL) [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
+
+Table: `dim_asm`: Information of Area Sales Managers of all areas
 ![image](https://github.com/user-attachments/assets/22315f77-ecfb-44bd-bff6-0797e1ca56ee)
 
-
+Table `dim_city`: Information of cities or surburbs in each area
 ![image](https://github.com/user-attachments/assets/46bf1508-4bc0-4953-88e7-8e2081bdcfbe)
 
-
+Table `dim_report_item`: Report items in the report (key financial indexes in financial statement)
 ![image](https://github.com/user-attachments/assets/5597b920-ced0-4e59-9758-11258def4e9f)
 
-4. Create transformation table for complex business logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
+- Create transformation table for complex business logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)*
 
-![image](https://github.com/user-attachments/assets/b2368729-d1b5-49d2-8fe6-2c402e9f8b57)
+Table`rule_temp`: The distribution rates of the head office's values, which are applied to report items, are based on specific report_item_id
+![image](https://github.com/user-attachments/assets/5ecd8a24-8fe1-498d-bf2d-1313806d35ef)
 
+Table`area_temp`: The total value before and after adding the head office's value, which is applied to report items.
 
 ![image](https://github.com/user-attachments/assets/d4a6cfe5-03fe-4501-bffd-d0a742b8b94b)
+
+Tale `npl_before_wo` and table`rate_npl`: calculate rate of non-performance loan to rank ASM
 
 ![image](https://github.com/user-attachments/assets/70130e41-c762-4a8b-aec3-b79982127f97)
 
 
 ![image](https://github.com/user-attachments/assets/cb9418e3-4fc8-4344-a820-0299cd14aeb3)
+
+Table `log_tracking`: record error messages for procedure of backdate reports
+![image](https://github.com/user-attachments/assets/bbf3c863-764b-4d5b-a200-dc757dc19164)
+
+- Use PLSQL Programming to create backdate report
+  
+      With the parameter YYYYMM, reports can be created using cumulative values from data sources and a created dimension table to automatically generate the report.
+  
+      Verify input and log errors if any occur.
+  
+      Optimize performance using indexes and partitions.
+  
+## 3. Reporting/Visualizaton 
+
+[View details of Embede Demo in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
+
+[Measure Power BI](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
+This file provides a summary and key highlights of the report, which contribute to the insights presented
+
+
+
+
 
 
 
