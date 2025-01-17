@@ -37,6 +37,7 @@ This data analysis aim to provide insights to support the Board of Director (BOD
 Moreover, it also helps us assess the capabilities of personnel in each region through Area Sales Managers (ASM) to foster a culture of accountability and continuous development among ASMs. By analyzing various aspects of financial performance across all network areas and ASM KPIs, we can gain insights to sustain performance and improve the capacity of senior managers within the company
 ### Data Sources
 Data is collected from various departments at the head office, including Sales and Operations, the Accounting department, and ASM records
+
   File `fact_txn_month_raw_data`:  Record incurred income and costs of a business's financial performance in General Ledge
   
   File `fact_kpi_month_raw_data`: Record  ending balance of card operations at the end of every month.
