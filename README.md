@@ -17,6 +17,10 @@
 
 [3. Reporting/Visualization](#3-reporting-visualization)
 
+[4. Findings/Recommendations](#4-findingsrecommendations)
+
+[5. Limitation](#5-limitations)
+
 ## 1. Project Overview
 
 ### Context
@@ -69,8 +73,10 @@ EDA is involved in evaluating financial performance, regional performance, and A
 - Use Dbeaver to import data to the database as below
    
    File `fact_txn_month_raw_data`
-   
-  ![image](https://github.com/user-attachments/assets/b4836274-dbd2-466d-86c9-7da8d221b6a5)
+
+![image](https://github.com/user-attachments/assets/59bee737-9e1f-4277-adc2-9611b3ddc333)
+
+
 
   
    File `fact_kpi_month_raw_data`
@@ -114,74 +120,118 @@ Table `log_tracking`: record error messages for procedure of backdate reports
 
 - Use PLSQL Programming to create backdate report
   
-      With the parameter YYYYMM, reports can be created using cumulative values from data sources and a created dimension table to automatically generate the report.
+  With the parameter YYYYMM, reports can be created using cumulative values from data sources and a created dimension table to automatically generate the report.
   
-      Verify input and log errors if any occur.
+  Verify input and log errors if any occur.
   
-      Optimize performance using indexes and partitions.
+  Optimize performance using indexes and partitions.
   
 ## 3. Reporting/Visualizaton 
 
-[View details of Embede Demo in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
+[Embedded Demo in Power BI service](https://app.powerbi.com/links/3NWH4mM3Vg?ctid=067e1e19-a11a-48e5-8b79-0b9ee745a7a2&pbi_source=linkShare)
 
 [Measure Power BI](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
-This file provides a summary and key highlights of the report, which contribute to the insights presented
+
+**`Page Home`** *A brief recap of the project’s context, objectives, and essential information for the user*
+
+![image](https://github.com/user-attachments/assets/75c23628-d707-4444-8de1-fb55f708cc60)
+
+**`Page Project Description`** *Provide information of input and output and explanation of business logic in the context*
+![image](https://github.com/user-attachments/assets/3cb4bfdb-3623-415a-aeff-cf60dd03065d)
 
 
+**`Page Executive Summary`** *Highlight key finnacial metris and overview of operational performance*
+
+Cumulative net profit in the latest month is 250 billions and Average margin from 10-12% during that perriod.
+
+While there is a slight decrease in growth rate compared to previous month, growth rate of margin increase 3-5%. It shows a good sign of profitability
+
+Provision expenses account for the highest percentage of total expenses, indicating that the company is prioritizing risk management. Tasmania is the region with the highest income, while South Australia has the highest expenses. For further analysis, we can delegate this to regional performance to provide more precise insights
+
+![image](https://github.com/user-attachments/assets/99781b7d-4248-46e1-b7f2-fa74fa4eed49)
+
+**`Page Financial Performance`** *Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics*
+
+Due interest is the category that accounts for the highest percentage of total operating income. 
+
+February is the month with the highest growth rate in net profit and income. Except for February, we observe that the growth rates of net profit, provision expenses, and due interest increase at the same rate. 
+From February to May, we experienced a significant decline in the growth rates of profit, due interest, and provision expenses. The average margin remained stable following a significant decline of 18%
+
+![image](https://github.com/user-attachments/assets/cb318c7b-947b-4cec-9e06-54cb0fa89fc8)
+
+**`Page Regional Performance`** *Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics*
+
+In the latest month, the areas with the highest growth rates in profit and income are Tasmania, while the areas with the lowest growth rates in profit and income are New South Wales, Victoria, and South Australia. 
+Tasmania is the area that has shown strong growth in both net profit and income. Additionally, South Australia had the highest CIR, and therefore, it needs to implement appropriate cost management. 
+Although Northern Territory generates good income, its margins are not strong enough to achieve a higher net profit growth rate
+
+![image](https://github.com/user-attachments/assets/810b8b5e-9ab3-4568-a9aa-1813fe70ad94)
+
+**`Page Regional Performance`**  *Analyze the performance of the Area Sales Manager based on two key business activities: Loan-to-New and New Customer Analysis*
+
+This analysis based on the Pareto Principle to answer the key question: What does 80% loan-to-new or customer come from?
+
+80% of loans to new customers were provided by 50 ASMs, accounting for over 60% of the total ASMs, while 80% of new customers were served by 52 ASMs, representing more than half of the total. The trends are consistent across both analyses.
+
+Therefore, we can develop a strategic approach for determining the optimal number of ASMs to align with the project objectives and budget, while also evaluating the capabilities of the ASMs.
+
+![image](https://github.com/user-attachments/assets/ce175cb7-2d4d-437c-9954-92b6e38d93c1)
+
+![image](https://github.com/user-attachments/assets/4a2caef5-3c3e-4588-b8f3-c12cbdd8f429)
+
+We can switch visual by this button.
+![image](https://github.com/user-attachments/assets/286b4ca0-f704-4068-a5c3-ff3b82b80a50)
 
 
+**`Page ASM Report`** *Provide a detailed report ranking Area Sales Managers for all criteria and highlight the increase or decrease in ranking for each ASM*
+
+During that period, region always having highest ASM in Top 10 : ﻿Queensland﻿ 
+
+In the latest month, the number of ASM having decreasing ranking accounts for highest percentage (~58%) 
+
+  Region with the highest ASM number with increasing ranking: ﻿Queensland﻿
+
+  Region with the lowest ASM number with  increasing ranking
+
+﻿New South Wales﻿
 
 
+![image](https://github.com/user-attachments/assets/83d3a0cf-ee4d-4723-9259-a6d0bb178e54)
 
+## Findings/Recommendations
+Summary of Analysis Results:
 
+*Provision Expense Impact:* 
 
+Provision expense accounts for the highest percentage of total expenses, which results in a reduced recorded net profit, thereby not truly reflecting the company’s performance. It is essential to assess other operational aspects of the company and evaluate the relative importance of provision expenses. A strategic approach should be taken in setting the budget for this expense category to ensure it accurately aligns with operational goals.
 
+*Areas for Cost Management Focus:* 
 
+Certain regions should place greater emphasis on cost management to enhance their net profit:
 
+Northern Territory (NT): The Northern Territory should focus on high-margin products, as they have demonstrated the ability to generate substantial income; however, their net profit remains negative. The ASM report indicates that most ASMs in NT rank below 60. To improve, they must enhance performance in the areas of loan-to-new and new customer acquisition.
 
+Queensland: Queensland shows strong profit margins and efficient ASM performance. It demonstrates sound financial health.
 
+Tasmania: Tasmania displays a good profit margin; however, the ASM performance needs improvement. Strengthening ASM effectiveness will help boost overall business performance.
 
+*Cost of Management*:
 
+Based on Pareto analysis, the cost for ASM (Area Sales Manager) management is considered acceptable, as the majority of loan-to-new and new customer figures—over 60% of the total—are attributed to these managers. While this indicates a concentration of results, it does not necessarily suggest that reducing the number of ASMs will lead to higher profitability. Notably, 80% of the loans to new customers come from just 60% of the managers, highlighting that reducing the ASM count may not optimize profitability
+## Limitation
 
+**In SQL**
 
-### Output:
-1/ Executive Summary: Highlight some financial key metrics and summary of primary operational performance 
+Some of the analysis code and business logic for calculation may not align with the standards set by the Australian Accounting Standards Board (AASB). Null values in the max_bucket column of the fact_kpi_month_raw_data table, which indicates the maximum loan classification of customers, will be coalesced to 1 for calculation purposes.
 
-2/ Financial Performance: Provide a comprehensive overview of the performance across all area networks, focusing on growth rate compared to previous month
+***In Power BI**
 
-3/ Regional Performance: Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics
+The Gauge Chart categorizes areas based on the minimum, maximum, and target values along the axis, which are initially set based on user intentions. In practice, these values will be determined by various factors such as the financial reports from previous periods, the current economic situation, competitors' performance, and the overall performance of the company.
 
-4/ ASM Analysis: Analyze the performance of the Area Sales Manager based on two key business activities: Loan-to-New and New Customer Analysis
-
-5/ ASM Report:  Provide a detailed report ranking Area Sales Managers for all criteria and highlight the increase or decrease in ranking for each ASM
-
-
-
-
-
-### Results/Findings
-The results of the analysis are summarized as below
-1.
-2.
-3.
-
-### Recommendation
-Based on the analysis, we recommend the following actions
-
-### Limitation
-Hypothesis: Gauge Chart how to categorize area (min max target axis)
-Not follow the general ledger in Australia
-null values in fact_kpi is coalesce to 0
-Expense will be returned to absolute value
-In the chart of Power BI, we focus more on primary income and expense source in that
+In the Expense Category, we will focus primarily on the core sources of income and expenses, ensuring that the most critical financial drivers are clearly visible and prioritized.
 
 💻📖😄
 
-
-|Heading1|Heading2|
-|--------|--------|
-|Content|Content2|
-|SQL|PowerBI|
 
 
 
