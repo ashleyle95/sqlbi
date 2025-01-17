@@ -1,5 +1,7 @@
 ![Example Image](https://github.com/ashleyle95/sqlbi/blob/main/cover.jpg)
 # PROJECT: FINANCIAL GROWTH ASSESSMENT AND AREA SALES MANAGER (ASM) KPI                                                         
+
+## Project Links
 [Project Description](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
 
 [SQL Script]()
