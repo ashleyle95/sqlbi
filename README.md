@@ -71,7 +71,10 @@ EDA is involved in evaluating financial performance, regional performance, and A
 ![flowchart (2)](https://github.com/user-attachments/assets/7725962a-8e89-4c97-872e-73b60dc70b41)
 
 ### Data Transformation
+
 - Project Description and key aspects of Business Logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Project%20Description.xlsx)
+
+  
 - Use Dbeaver to import data to the database as below
    
    File `fact_txn_month_raw_data`
@@ -90,6 +93,7 @@ EDA is involved in evaluating financial performance, regional performance, and A
 
 ![image](https://github.com/user-attachments/assets/da8026a5-2b37-4c38-b9d8-195ba7385caf)
 
+
 - Create dimension tables by using PostgreSQL Data Definition Language (DDL) [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
 
 Table: `dim_asm`: Information of Area Sales Managers of all areas
@@ -100,6 +104,7 @@ Table `dim_city`: Information of cities or surburbs in each area
 
 Table `dim_report_item`: Report items in the report (key financial indexes in financial statement)
 ![image](https://github.com/user-attachments/assets/5597b920-ced0-4e59-9758-11258def4e9f)
+
 
 - Create transformation table for complex business logic [View more](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)*
 
@@ -119,6 +124,7 @@ Tale `npl_before_wo` and table`rate_npl`: calculate rate of non-performance loan
 
 Table `log_tracking`: record error messages for procedure of backdate reports
 ![image](https://github.com/user-attachments/assets/bbf3c863-764b-4d5b-a200-dc757dc19164)
+
 
 - Use PLSQL Programming to create backdate report
   
@@ -201,7 +207,6 @@ In the latest month, the number of ASM having decreasing ranking accounts for hi
 ![image](https://github.com/user-attachments/assets/83d3a0cf-ee4d-4723-9259-a6d0bb178e54)
 
 ## Findings/Recommendations
-Summary of Analysis Results:
 
 *Provision Expense Impact:* 
 
@@ -226,7 +231,7 @@ Based on Pareto analysis, the cost for ASM (Area Sales Manager) management is co
 
 Some of the analysis code and business logic for calculation may not align with the standards set by the Australian Accounting Standards Board (AASB). Null values in the max_bucket column of the fact_kpi_month_raw_data table, which indicates the maximum loan classification of customers, will be coalesced to 1 for calculation purposes.
 
-***In Power BI**
+**In Power BI**
 
 The Gauge Chart categorizes areas based on the minimum, maximum, and target values along the axis, which are initially set based on user intentions. In practice, these values will be determined by various factors such as the financial reports from previous periods, the current economic situation, competitors' performance, and the overall performance of the company.
 
@@ -235,8 +240,12 @@ In the Expense Category, we will focus primarily on the core sources of income a
 💻📖😄
 
 
+![image](https://github.com/user-attachments/assets/71437a11-333e-4d7a-8073-ee6d54691298)
 
-
+|Table of contents|Heading2|
+|--------|--------|
+|Content|Content2|
+|SQL|PowerBI|
 
 
   
