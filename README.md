@@ -239,13 +239,10 @@ In the Expense Category, we will focus primarily on the core sources of income a
 
 💻📖😄
 
+| [Table of Contents](#table-of-contents) | [Project Links](#project-links) |
+
 
 ![image](https://github.com/user-attachments/assets/71437a11-333e-4d7a-8073-ee6d54691298)
-
-|Table of contents|Heading2|
-|--------|--------|
-|Content|Content2|
-|SQL|PowerBI|
 
 
   
