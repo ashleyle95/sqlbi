@@ -10,7 +10,7 @@
 
 [Measures - PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
 
-[Link report - Power BI service](https://app.powerbi.com/view?r=eyJrIjoiM2IwMzI3ZmQtNzc3NS00M2U5LTg5MWYtZDJmZmFlNDI5ZWJiIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
+[Link report - Power BI service](https://app.fabric.microsoft.com/view?r=eyJrIjoiZDkyM2FlZGQtMTFmMy00YmJjLWJlZGMtMTkzMzgyNzBiNDAwIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
 
 ## Table of contents
 [1. Project Overview](#1-project-overview)
@@ -137,7 +137,7 @@ Table `log_tracking`: record error messages for procedure of backdate reports
   
 ## 3. Reporting/Visualizaton 
 
-[Embedded Demo in Power BI service](https://app.powerbi.com/view?r=eyJrIjoiM2IwMzI3ZmQtNzc3NS00M2U5LTg5MWYtZDJmZmFlNDI5ZWJiIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
+[Embedded Demo in Power BI service](https://app.fabric.microsoft.com/view?r=eyJrIjoiZDkyM2FlZGQtMTFmMy00YmJjLWJlZGMtMTkzMzgyNzBiNDAwIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
 
 [Measure Power BI](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
 
