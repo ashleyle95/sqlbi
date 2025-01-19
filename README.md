@@ -17,7 +17,7 @@
 
 [2. Data Process](#2-data-process) 
 
-[3. Reporting/Visualization](#3-reporting-visualization)
+[3. Reporting/Visualization](#3-reportingvisualization)
 
 [4. Findings/Recommendations](#4-findingsrecommendations)
 
