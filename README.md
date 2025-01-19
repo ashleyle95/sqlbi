@@ -19,7 +19,7 @@
 
 [3. Reporting Dashboard](#3-reporting-dashboard)
 
-[4. Findings](#4-findings)
+[4. Findings/Recommendations](#4-findingsrecommendations)
 
 [5. Limitations](#5-limitations)
 
@@ -210,7 +210,7 @@ In the latest month, the number of ASM having decreasing ranking accounts for hi
 ![image](https://github.com/user-attachments/assets/1d5dd8ea-808b-4553-b255-befdc21e886b)
 
 
-## 4. Findings
+## 4. Findings/Recommendations
 
 *Provision Expense Impact:* 
 
@@ -229,7 +229,7 @@ Tasmania: Tasmania displays a good profit margin; however, the ASM performance n
 *Cost of Management*:
 
 Based on Pareto analysis, the cost for ASM (Area Sales Manager) management is considered acceptable, as the majority of loan-to-new and new customer figures—over 60% of the total—are attributed to these managers. While this indicates a concentration of results, it does not necessarily suggest that reducing the number of ASMs will lead to higher profitability. Notably, 80% of the loans to new customers come from just 60% of the managers, highlighting that reducing the ASM count may not optimize profitability
-## Limitations
+## 5. Limitations
 
 **In SQL**
 
