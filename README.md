@@ -19,9 +19,9 @@
 
 [3. Reporting Dashboard](#3-reporting-dashboard)
 
-[4. Findings/Recommendations](#4-findingsrecommendations)
+[4. Findings](#4-findings)
 
-[5. Limitation](#5-limitations)
+[5. Limitation](#5-limitation)
 
 ## 1. Project Overview
 
