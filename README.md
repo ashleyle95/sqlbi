@@ -21,7 +21,7 @@
 
 [4. Findings](#4-findings)
 
-[5. Limitation](#5-limitation)
+[5. Limitations](#5-limitations)
 
 ## 1. Project Overview
 
@@ -135,7 +135,7 @@ Table `log_tracking`: record error messages for procedure of backdate reports
   
   Optimize performance using indexes and partitions.
   
-## 3. Reporting/Visualizaton 
+## 3. Reporting Dashboard
 
 [Embedded Demo in Power BI service](https://app.fabric.microsoft.com/view?r=eyJrIjoiZDkyM2FlZGQtMTFmMy00YmJjLWJlZGMtMTkzMzgyNzBiNDAwIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
 
@@ -210,7 +210,7 @@ In the latest month, the number of ASM having decreasing ranking accounts for hi
 ![image](https://github.com/user-attachments/assets/1d5dd8ea-808b-4553-b255-befdc21e886b)
 
 
-## Findings/Recommendations
+## 4. Findings
 
 *Provision Expense Impact:* 
 
@@ -229,7 +229,7 @@ Tasmania: Tasmania displays a good profit margin; however, the ASM performance n
 *Cost of Management*:
 
 Based on Pareto analysis, the cost for ASM (Area Sales Manager) management is considered acceptable, as the majority of loan-to-new and new customer figures—over 60% of the total—are attributed to these managers. While this indicates a concentration of results, it does not necessarily suggest that reducing the number of ASMs will lead to higher profitability. Notably, 80% of the loans to new customers come from just 60% of the managers, highlighting that reducing the ASM count may not optimize profitability
-## Limitation
+## Limitations
 
 **In SQL**
 
