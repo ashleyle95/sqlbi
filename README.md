@@ -143,10 +143,9 @@ Table `log_tracking`: record error messages for procedure of backdate reports
 
 **`Page Home`** *A brief recap of the project’s context, objectives, and essential information for the user*
 
-![image](https://github.com/user-attachments/assets/75c23628-d707-4444-8de1-fb55f708cc60)
+![image](https://github.com/user-attachments/assets/f316022a-c9a4-410d-bb1e-56fac178c9f8)
 
-**`Page Project Description`** *Provide information of input and output and explanation of business logic in the context*
-![image](https://github.com/user-attachments/assets/3cb4bfdb-3623-415a-aeff-cf60dd03065d)
+
 
 
 **`Page Executive Summary`** *Highlight key finnacial metris and overview of operational performance*
@@ -157,7 +156,8 @@ While there is a slight decrease in growth rate compared to previous month, grow
 
 Provision expenses account for the highest percentage of total expenses, indicating that the company is prioritizing risk management. Tasmania is the region with the highest income, while South Australia has the highest expenses. For further analysis, we can delegate this to regional performance to provide more precise insights
 
-![image](https://github.com/user-attachments/assets/99781b7d-4248-46e1-b7f2-fa74fa4eed49)
+![image](https://github.com/user-attachments/assets/fde5aa2b-8675-4e0d-93d0-6f557231b2b0)
+
 
 **`Page Financial Performance`** *Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics*
 
@@ -166,7 +166,8 @@ Due interest is the category that accounts for the highest percentage of total o
 February is the month with the highest growth rate in net profit and income. Except for February, we observe that the growth rates of net profit, provision expenses, and due interest increase at the same rate. 
 From February to May, we experienced a significant decline in the growth rates of profit, due interest, and provision expenses. The average margin remained stable following a significant decline of 18%
 
-![image](https://github.com/user-attachments/assets/cb318c7b-947b-4cec-9e06-54cb0fa89fc8)
+![image](https://github.com/user-attachments/assets/1aef9504-e990-4fc7-8401-9750507d9cc8)
+
 
 **`Page Regional Performance`** *Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics*
 
@@ -174,7 +175,8 @@ In the latest month, the areas with the highest growth rates in profit and incom
 Tasmania is the area that has shown strong growth in both net profit and income. Additionally, South Australia had the highest CIR, and therefore, it needs to implement appropriate cost management. 
 Although Northern Territory generates good income, its margins are not strong enough to achieve a higher net profit growth rate
 
-![image](https://github.com/user-attachments/assets/810b8b5e-9ab3-4568-a9aa-1813fe70ad94)
+
+![image](https://github.com/user-attachments/assets/d4d359e2-3510-4579-8201-289e08201fcb)
 
 **`Page Regional Performance`**  *Analyze the performance of the Area Sales Manager based on two key business activities: Loan-to-New and New Customer Analysis*
 
@@ -184,12 +186,12 @@ This analysis based on the Pareto Principle to answer the key question: What doe
 
 Therefore, we can develop a strategic approach for determining the optimal number of ASMs to align with the project objectives and budget, while also evaluating the capabilities of the ASMs.
 
-![image](https://github.com/user-attachments/assets/ce175cb7-2d4d-437c-9954-92b6e38d93c1)
+![image](https://github.com/user-attachments/assets/a36130b8-0883-4226-8eee-e6668b13ceef)
 
-![image](https://github.com/user-attachments/assets/4a2caef5-3c3e-4588-b8f3-c12cbdd8f429)
+![image](https://github.com/user-attachments/assets/fe03f078-3813-4c56-876d-05e02ea7cb09)
 
 We can switch visual by this button.
-![image](https://github.com/user-attachments/assets/286b4ca0-f704-4068-a5c3-ff3b82b80a50)
+![image](https://github.com/user-attachments/assets/390196bf-cb2c-4385-b4f3-c33268e9d7f3)
 
 
 **`Page ASM Report`** *Provide a detailed report ranking Area Sales Managers for all criteria and highlight the increase or decrease in ranking for each ASM*
@@ -205,7 +207,8 @@ In the latest month, the number of ASM having decreasing ranking accounts for hi
 ﻿New South Wales﻿
 
 
-![image](https://github.com/user-attachments/assets/83d3a0cf-ee4d-4723-9259-a6d0bb178e54)
+![image](https://github.com/user-attachments/assets/1d5dd8ea-808b-4553-b255-befdc21e886b)
+
 
 ## Findings/Recommendations
 
