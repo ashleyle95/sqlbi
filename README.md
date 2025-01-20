@@ -139,7 +139,7 @@ Table `log_tracking`: record error messages for procedure of backdate reports
 
 [Embedded Demo in Power BI service](https://app.fabric.microsoft.com/view?r=eyJrIjoiZDkyM2FlZGQtMTFmMy00YmJjLWJlZGMtMTkzMzgyNzBiNDAwIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
 
-[Measure Power BI](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
+[Measure Power BI](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2?pvs=73)
 
 **`Page Home`** *A brief recap of the project’s context, objectives, and essential information for the user*
 
