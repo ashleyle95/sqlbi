@@ -159,7 +159,7 @@ Provision expenses account for the highest percentage of total expenses, indicat
 ![image](https://github.com/user-attachments/assets/fde5aa2b-8675-4e0d-93d0-6f557231b2b0)
 
 
-**`Page Financial Performance`** *Emphasize the efficiency of business performance across months and classify areas based on the growth rate of key business metrics*
+**`Page Financial Performance`** *Provide the comprehensive performance overview across all area network and growth rate compared to the previous month*
 
 Due interest is the category that accounts for the highest percentage of total operating income. 
 
@@ -178,7 +178,7 @@ Although Northern Territory generates good income, its margins are not strong en
 
 ![image](https://github.com/user-attachments/assets/d4d359e2-3510-4579-8201-289e08201fcb)
 
-**`Page Regional Performance`**  *Analyze the performance of the Area Sales Manager based on two key business activities: Loan-to-New and New Customer Analysis*
+**`Page ASM Analysis`**  *Analyze the performance of the Area Sales Manager based on two key business activities: Loan-to-New and New Customer Analysis*
 
 This analysis based on the Pareto Principle to answer the key question: What does 80% loan-to-new or customer come from?
 
