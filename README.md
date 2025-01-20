@@ -64,6 +64,7 @@ EDA is involved in evaluating financial performance, regional performance, and A
 - Which regions have the highest and lowest performing ASMs, and what factors contribute to these disparities?
 ### Output
 Interactive dashboard with 6 pages, including a home page: 
+
   Page `Executive Summary` highlighting key finnacial metrics and overview performance
   
   Page `Financial Performance` providing the comprehensive performance across all area network and growth rate compared to the previous month
