@@ -65,9 +65,13 @@ EDA is involved in evaluating financial performance, regional performance, and A
 ### Output
 Interactive dashboard with 6 pages, including a home page: 
   Page `Executive Summary` highlighting key finnacial metrics and overview performance
+  
   Page `Financial Performance` providing the comprehensive performance across all area network and growth rate compared to the previous month
+  
   Page `Regional Performance` focusing on the efficiency of business performance and classify areas based on the growth rate of key business metrics
+  
   Page `ASM Analysis` analyzing the performance of the Area Sales Manager (ASM) based on two key business activities: Loan-to-New and New Customer Analysis 
+  
   Page `ASM Report` as a detailed report ranking ASM and highlighting the increase or decrease in ranking
 
 ## 2. Data Process  
