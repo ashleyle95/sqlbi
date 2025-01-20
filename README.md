@@ -8,7 +8,7 @@
 [1. DDL](https://github.com/ashleyle95/sqlbi/blob/main/Table%20vs%20DDL%20.sql)
 [2. Procedure](https://github.com/ashleyle95/sqlbi/blob/main/Procedure.sql)
 
-[Measures - PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2)
+[Measures - PowerBI (Notion Link)](https://merciful-pangolin-17c.notion.site/PROJECT-FINANCIAL-GROWTH-ASSESSMENT-AND-ASM-KPI-176ced2366e780f6ad34fe193e4dd6f2?pvs=73)
 
 [Link report - Power BI service](https://app.fabric.microsoft.com/view?r=eyJrIjoiZDkyM2FlZGQtMTFmMy00YmJjLWJlZGMtMTkzMzgyNzBiNDAwIiwidCI6IjA2N2UxZTE5LWExMWEtNDhlNS04Yjc5LTBiOWVlNzQ1YTdhMiJ9)
 
